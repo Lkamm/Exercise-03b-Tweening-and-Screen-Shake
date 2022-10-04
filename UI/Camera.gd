@@ -16,7 +16,7 @@ func _ready():
   noise.seed = randi()
   noise.period = 4
   noise.octaves = 2
-
+ 
 func _process(delta):
 	if target:
 		global_position = get_node(target).global_position
